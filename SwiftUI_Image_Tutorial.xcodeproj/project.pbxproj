@@ -11,6 +11,8 @@
 		9948003026B0264C0003208C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948002F26B0264C0003208C /* ContentView.swift */; };
 		9948003226B0264D0003208C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9948003126B0264D0003208C /* Assets.xcassets */; };
 		9948003526B0264D0003208C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9948003426B0264D0003208C /* Preview Assets.xcassets */; };
+		9948003D26B026790003208C /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948003C26B026790003208C /* CircleImageView.swift */; };
+		9948004126B02CF80003208C /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948004026B02CF80003208C /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9948003126B0264D0003208C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9948003426B0264D0003208C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9948003626B0264D0003208C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9948003C26B026790003208C /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		9948004026B02CF80003208C /* MyWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 				9948002D26B0264C0003208C /* SwiftUI_Image_TutorialApp.swift */,
 				9948002F26B0264C0003208C /* ContentView.swift */,
 				9948003126B0264D0003208C /* Assets.xcassets */,
+				9948004026B02CF80003208C /* MyWebView.swift */,
 				9948003626B0264D0003208C /* Info.plist */,
 				9948003326B0264D0003208C /* Preview Content */,
+				9948003C26B026790003208C /* CircleImageView.swift */,
 			);
 			path = SwiftUI_Image_Tutorial;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9948003026B0264C0003208C /* ContentView.swift in Sources */,
+				9948004126B02CF80003208C /* MyWebView.swift in Sources */,
+				9948003D26B026790003208C /* CircleImageView.swift in Sources */,
 				9948002E26B0264C0003208C /* SwiftUI_Image_TutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

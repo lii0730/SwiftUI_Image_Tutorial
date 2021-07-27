@@ -9,8 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                CircleImageView()
+                HStack {
+                    NavigationLink(destination: MyWebView(urlToLoad: "https://unsplash.com")) {
+                        Text("다운하러 가기")
+                            .font(.system(size: 20))
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.red)
+                            .cornerRadius(20)
+                            .edgesIgnoringSafeArea(.all)
+                    }
+                    NavigationLink(destination: MyWebView(urlToLoad: "https://github.com")) {
+                        Text("깃허브로 가기")
+                            .font(.system(size: 20))
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.orange)
+                            .cornerRadius(20)
+                            .edgesIgnoringSafeArea(.all)
+                    }
+                } // HStack
+                .padding(40)
+            }
+        }
     }
 }
 
